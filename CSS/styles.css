@@ -28,6 +28,11 @@ body {
     color: #ffffff;
 }
 
+.column-1 h3 {
+    color: black;
+    text-align: center;
+}
+
 #section-2 {
     background-color: #509ea0;
     text-align: center;
@@ -65,7 +70,7 @@ body {
 
 #section-5 {
     background-color: black;
-    color: cornsilk;
+    color: white;
     text-align: center;
 }
 
@@ -93,6 +98,18 @@ iframe {
     width: 100%;
     height: 350;
     border: 0;
+}
+
+
+/*Clase gallery define estilos de imagenes*/
+
+.gallery {
+    width: 33.33%;
+    float: left;
+}
+
+.gallery img {
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
